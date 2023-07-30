@@ -1,0 +1,8 @@
+cat filelist.txt
+file '0.ts'
+file '1.ts'
+file '2.ts'
+file '3.ts'
+
+
+ffmpeg -f concat -i filelist.txt -acodec copy -vcodec copy 002.狐妖小红娘·下沙篇.ts
