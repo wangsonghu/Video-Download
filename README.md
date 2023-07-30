@@ -6,7 +6,8 @@
 
 - 已安装FFmpeg
 - 腾讯视频已将所需的视频缓存好并整理到一个文件夹内
-> 腾讯视频缓存目录：
+> 腾讯视频缓存目录：`/Android/data/com.tencent.qqlive/files/videos_xVKTG/`
+
 
 
 ### 1. 将腾讯视频缓存的问题放置到一个目录，目录名称为数字
