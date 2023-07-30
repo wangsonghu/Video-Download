@@ -1,12 +1,15 @@
-# FFmpeg-Script
+# 视频缓存
 
-# 前提条件
+## 腾讯视频
+
+### 前提条件
+
 - 已安装FFmpeg
 - 腾讯视频已将所需的视频缓存好并整理到一个文件夹内
 > 腾讯视频缓存目录：
 
 
-# 1. 将腾讯视频缓存的问题放置到一个目录，目录名称为数字
+### 1. 将腾讯视频缓存的问题放置到一个目录，目录名称为数字
 ```
 songhu@magicbook:~/tmp/huyaoxiaohongniang> ls -R
 .:
@@ -20,7 +23,7 @@ songhu@magicbook:~/tmp/huyaoxiaohongniang> ls -R
 
 ```
 
-# 2. 执行`run.sh`脚本
+### 2. 执行`run.sh`脚本
 ```
 ## 若没有可执行权限，添加可执行权限
 chmod +x run.sh
