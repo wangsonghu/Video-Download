@@ -24,9 +24,9 @@ songhu@magicbook:~/tmp/huyaoxiaohongniang> ls -R
 
 ```
 
-### 2. 执行`run.sh`脚本
+### 2. 执行`ffmpeg_convert_videos.sh`脚本
 ```
 ## 若没有可执行权限，添加可执行权限
-chmod +x run.sh
-./run.sh | bash
+chmod +x ffmpeg_convert_videos.sh
+./ffmpeg_convert_videos.sh | bash
 ```
