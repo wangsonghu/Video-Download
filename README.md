@@ -39,4 +39,5 @@ chmod +x ffmpeg_convert_videos.sh
 - 视频可缓存
 
 > BiliBili视频缓存目录:`/Android/data/tv.danmaku.bili/download`
+使用`MKVToolNix GUI`合并视频
 ![](./BiliBili视频/Screenshot_20230730_221301.png)
