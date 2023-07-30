@@ -30,3 +30,13 @@ songhu@magicbook:~/tmp/huyaoxiaohongniang> ls -R
 chmod +x ffmpeg_convert_videos.sh
 ./ffmpeg_convert_videos.sh | bash
 ```
+
+
+## `BiliBili视频`
+
+### 前提条件
+
+- 视频可缓存
+
+> BiliBili视频缓存目录:`/Android/data/tv.danmaku.bili/download`
+![](./Screenshot_20230730_221301.png)
