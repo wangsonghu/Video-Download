@@ -31,3 +31,7 @@ songhu@magicbook:~/tmp/huyaoxiaohongniang> ls -R
 chmod +x ffmpeg_convert_videos.sh
 ./ffmpeg_convert_videos.sh | bash
 ```
+### 3. 重命名
+```
+find . -name out.mp4 | while read line; do echo "mv $line `echo $line | sed -r 's#.*/([0-9]+)/.*#\1.[狐妖小红娘][2015][tencent][国漫][TV].mp4#g'`"; done | bash
+```
