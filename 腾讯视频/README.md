@@ -6,7 +6,9 @@
 
 - 已安装FFmpeg
 - 腾讯视频已将所需的视频缓存好并整理到一个文件夹内
-> 腾讯视频缓存目录：`/Android/data/com.tencent.qqlive/files/videos_xVKTG/`
+> 腾讯视频缓存目录：
+- `/Android/data/com.tencent.qqlive/files/videos_xVKTG/`
+- `/Android/data/com.tencent.qqlive/files/videos_JhodL/`
 
 ![](./Screenshot_20230730_221445.png)
 
