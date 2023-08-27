@@ -3,6 +3,7 @@
 
 ls -l | grep -E "^d" | awk '{print $NF}'| while read Dir; do
     cd ${Dir}
+    find . -name *.ts -exec mv {} . \;
     >filelist.txt
     ls -1 [0-9].ts | while read File; do
         echo "file '${File}'" >>filelist.txt
