@@ -44,5 +44,5 @@ find . -name out.mp4 | while read line; do echo "mv $line `echo $line | sed -r '
 ```
 
 ```
-find . -name out.mp4 | while read line; do echo "mv $line `echo $line | sed -r 's#.*/([0-9]+)/.*#[\1.][鹊刀门传奇][内地][tencent][2023][喜剧·古装·武侠].mp4#g'`"; done | bash
+find . -name out.mp4 | while read line; do echo "mv $line `echo $line | sed -r 's#.*/([0-9]+)/.*#"[\1.][鹊刀门传奇][内地][tencent][2023][喜剧·古装·武侠].mp4""#g'`"; done | bash
 ```
