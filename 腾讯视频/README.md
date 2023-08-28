@@ -6,7 +6,9 @@
 
 - 已安装FFmpeg
 - 腾讯视频已将所需的视频缓存好并整理到一个文件夹内
+
 > 腾讯视频缓存目录：
+
 - `/Android/data/com.tencent.qqlive/files/videos_xVKTG/`
 - `/Android/data/com.tencent.qqlive/files/videos_JhodL/`
 
@@ -14,6 +16,7 @@
 
 
 ### 1. 将腾讯视频缓存的问题放置到一个目录，目录名称为数字
+
 ```
 songhu@magicbook:~/tmp/huyaoxiaohongniang> ls -R
 .:
@@ -28,12 +31,18 @@ songhu@magicbook:~/tmp/huyaoxiaohongniang> ls -R
 ```
 
 ### 2. 执行`ffmpeg_convert_videos.sh`脚本
+
 ```
 ## 若没有可执行权限，添加可执行权限
 chmod +x ffmpeg_convert_videos.sh
 ./ffmpeg_convert_videos.sh | bash
 ```
 ### 3. 重命名
+
 ```
 find . -name out.mp4 | while read line; do echo "mv $line `echo $line | sed -r 's#.*/([0-9]+)/.*#\1.[狐妖小红娘][2015][tencent][国漫][TV].mp4#g'`"; done | bash
+```
+
+```
+find . -name out.mp4 | while read line; do echo "mv $line `echo $line | sed -r 's#.*/([0-9]+)/.*#[\1.][鹊刀门传奇][内地][tencent][2023][喜剧·古装·武侠]#g'`"; done | bash
 ```
